@@ -1,0 +1,32 @@
+TATAME — diário de jiu-jitsu
+============================
+
+Estes são os arquivos do app. Para instalar no celular com ícone próprio e
+funcionamento sem internet, os arquivos precisam ficar hospedados em um
+endereço https. Duas formas gratuitas e rápidas:
+
+GITHUB PAGES
+1. Crie uma conta em github.com e um repositório novo (público).
+2. Envie todos os arquivos desta pasta para a raiz do repositório.
+3. Em Settings > Pages, escolha a branch "main" e a pasta "/ (root)".
+4. Em poucos minutos o endereço aparece ali. Abra no celular e instale.
+
+NETLIFY DROP
+1. Acesse app.netlify.com/drop.
+2. Arraste esta pasta inteira para a área indicada.
+3. O endereço aparece na hora. Abra no celular e instale.
+
+COMO INSTALAR NO CELULAR
+- Android (Chrome): menu de três pontos > "Instalar app".
+- iPhone (Safari): botão de compartilhar > "Adicionar à Tela de Início".
+
+ONDE FICAM OS DADOS
+Tudo fica salvo no próprio aparelho, dentro do navegador. Nada é enviado para
+nenhum servidor. Fotos e vídeos ficam em um banco local separado e não entram
+no backup em texto. Use Progresso > Backup e restauração de vez em quando.
+
+ARQUIVOS
+index.html ................ o app inteiro
+manifest.webmanifest ...... nome, ícone e modo de exibição
+sw.js ..................... faz o app funcionar sem internet
+icon-*.png ................ ícones
