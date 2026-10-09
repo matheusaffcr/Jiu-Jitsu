@@ -1,4 +1,4 @@
-const CACHE = 'tatame-v12';
+const CACHE = 'tatame-v13';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-180.png', './icon-maskable-512.png'];
 
 self.addEventListener('install', e => {
